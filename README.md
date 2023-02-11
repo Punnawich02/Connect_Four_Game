@@ -1,18 +1,18 @@
 # Connect_Four_Game
 Name Student 1:
-ID Student 1:
+<br/>ID Student 1:
 
-Name Student 2:
-ID Student 2:
+<br/>Name Student 2:
+<br/>ID Student 2:
 
-Name Student 3:
-ID Student 3:
+<br/>Name Student 3:
+<br/>ID Student 3:
 
-Name Student 4:
-ID Student 4:
+<br/>Name Student 4:
+<br/>ID Student 4:
 
-Name Student 5:
-ID Student 5:
+<br/>Name Student 5:
+<br/>ID Student 5:
 
-Name Student 6:
-ID Student 6:
+<br/>Name Student 6:
+<br/>ID Student 6:
