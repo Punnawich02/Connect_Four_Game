@@ -39,7 +39,7 @@ void Destroyed_T(int x){
 		else{
 			c4 = c4+2;
 		}
-	}1
+	}
 	else if(x == 5){
 		c4 = c4+1;
 		c4 = c4+1;
