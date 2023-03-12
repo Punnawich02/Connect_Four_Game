@@ -1,0 +1,9 @@
+player 1: w a s d spacebar
+player 2: ↑ ↓ → ← enter
+w a or ↑ ↓ : choose skill 
+s d or → ← : choose column
+spacebar or enter : take action
+
+how to swap  :
+choose skill swap and column to swap then take action.
+choose a row with w a or ↑ ↓ then take action.
