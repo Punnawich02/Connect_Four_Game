@@ -1,7 +1,34 @@
-void Reverse(int col_p1,int col_p2) //Function was completed ,Reverse 2 turns
+void Reverse() //Function was completed ,Reverse 2 turns
 {	
-	arr[c[col_p1]+1][col_p1] = 0; //set this row and column to 0
-	arr[c[col_p2]+1][col_p2] = 0;
-	c[col_p2] += 1; //make a free space
-	c[col_p1] += 1;
+	if(count%2==0)
+	{
+		for(int i = 0;i<6;i++)
+		{
+			for(int j = 0;j<7;j++)
+			{
+				if(arr[i][j] != k1_board[i][j])
+				{
+					arr[i][j] = k1_board[i][j] ;
+					if (arr[i][j]==0) c[j]++;
+					else c[j]--;
+				}
+			}
+		}
+	}
+   	else
+	{
+		for(int i = 0;i<6;i++)
+		{
+			for(int j = 0;j<7;j++)
+			{
+				if(arr[i][j] != k2_board[i][j])
+				{
+					arr[i][j] = k2_board[i][j];
+					if (arr[i][j]==0) c[j]++;
+					else c[j]--;
+				}
+			}
+		}
+	}
+   	board(-1,0,0);
 }
